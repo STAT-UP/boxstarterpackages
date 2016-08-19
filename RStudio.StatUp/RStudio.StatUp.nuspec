@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>RStudio.StatUp</id>
+    <version>0.99.1286</version>
+    <authors>Stefan Fritsch</authors>
+    <owners>Stefan Fritsch</owners>
+    <description>Current RStudio Preview</description>
+    <tags>R</tags>
+  </metadata>
+</package>
