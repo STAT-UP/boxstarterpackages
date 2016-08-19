@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>R.StatUp</id>
+    <version>3.3.1</version>
+    <authors>CRAN</authors>
+    <owners>Stefan Fritsch</owners>
+    <description>Current CRAN R Version + RTools</description>
+    <tags>R</tags>
+  </metadata>
+</package>
