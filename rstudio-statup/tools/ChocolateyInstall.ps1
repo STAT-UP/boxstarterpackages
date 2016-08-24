@@ -1,6 +1,6 @@
 try {
 	$packageArgs = @{
-		packageName = 'rstudio.statup'
+		packageName = 'rstudio-statup'
 		fileType = 'exe'
 		silentArgs = '/S'
 		url64bit = 'https://s3.amazonaws.com/rstudio-dailybuilds/RStudio-0.99.1289.exe'
@@ -11,8 +11,8 @@ try {
 	Install-ChocolateyPackage @packageArgs
 	# $packageName $fileType $silentArgs $url
 
-    Write-ChocolateySuccess 'RStudio.StatUp'
+    Write-ChocolateySuccess 'rstudio-statup'
 } catch {
-	Write-ChocolateyFailure 'RStudio.StatUp' $($_.Exception.Message)
+	Write-ChocolateyFailure 'rstudio-statup' $($_.Exception.Message)
 	throw
 }
