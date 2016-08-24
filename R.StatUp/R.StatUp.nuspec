@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>R.StatUp</id>
+    <id>r-statup</id>
     <version>3.3.1</version>
     <authors>CRAN</authors>
     <owners>Stefan Fritsch</owners>
