@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>rtools-statup</id>
+    <version>3.4</version>
+    <authors>CRAN</authors>
+    <owners>Stefan Fritsch</owners>
+    <description>Current CRAN RTools</description>
+    <tags>R</tags>
+	<dependencies>
+		<dependency id="r-statup" version="3.1.0" />
+	</dependencies>
+  </metadata>
+</package>

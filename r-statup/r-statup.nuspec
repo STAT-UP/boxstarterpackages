@@ -5,7 +5,7 @@
     <version>3.3.1</version>
     <authors>CRAN</authors>
     <owners>Stefan Fritsch</owners>
-    <description>Current CRAN R Version + RTools</description>
+    <description>Current CRAN R Version</description>
     <tags>R</tags>
   </metadata>
 </package>

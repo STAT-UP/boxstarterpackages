@@ -2,10 +2,13 @@
 <package>
   <metadata>
     <id>rstudio-statup</id>
-    <version>0.99.1289</version>
+    <version>0.99.1292</version>
     <authors>RStudio</authors>
     <owners>Stefan Fritsch</owners>
     <description>Current RStudio Preview</description>
     <tags>R</tags>
+	<dependencies>
+      <dependency id="r-statup" version="3.1.0" />
+    </dependencies>
   </metadata>
 </package>

@@ -9,21 +9,8 @@ try {
 	}
 	
 	Install-ChocolateyPackage @packageArgsR
-	
-	$packageArgsRtools = @{
-		packageName = 'rtools-statup'
-		fileType = 'exe'
-		silentArgs = '/VERYSILENT'
-		url64bit = 'https://cran.r-project.org/bin/windows/Rtools/Rtools34.exe'
-		checksum64 = '194FBC35E9FEE6C653C17C473934AC3E65697B8316612CBA4E1D9F367C229EBA'
-		checksumType64 = 'sha256'
-	}
-	
-	Install-ChocolateyPackage @packageArgsRtools
-	Install-ChocolateyPath 'c:\Rtools\bin;c:\Rtools\mingw_64\bin' 'Machine'
 
-    Write-ChocolateySuccess 'r-statup'
+    'Successfully installed r-statup'
 } catch {
-	Write-ChocolateyFailure 'r-statup' $($_.Exception.Message)
-	throw
+	throw $_.Exception
 }
