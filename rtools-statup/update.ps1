@@ -3,8 +3,8 @@ import-module au
 function global:au_SearchReplace {
     @{
         'tools\chocolateyInstall.ps1' = @{
-            "(^\s*url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
-            "(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum)'"
+            "(^\s*url\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
+            "(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
      }
 }
@@ -20,7 +20,7 @@ function global:au_GetLatest {
     $version = $url -replace "Rtools(.*).exe", '$1'
     $version = $version -replace "^(.)", '$1.'
 
-    return @{ URL = $baseurl + $url; Version = $version }
+    return @{ URL32 = $baseurl + $url; Version = $version }
 }
 
 update
