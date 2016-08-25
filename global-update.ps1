@@ -14,6 +14,10 @@
     '...done'
 
 
+    '================================================================='
+    '                       R'
+    '================================================================='
+
     '-----------------------------------------------------------------'
     'Update r-statup'
     '...switch to directory'
@@ -40,6 +44,35 @@
     ./update.ps1
     '...done'
 
+
+    
+    '================================================================='
+    '                       Git'
+    '================================================================='
+
+    '-----------------------------------------------------------------'
+    'Update git-statup'
+    '...switch to directory'
+    cd ($dir + "\git-statup")
+    '...run update.ps1'
+    ./update.ps1
+    '...done'
+
+    '-----------------------------------------------------------------'
+    'Update git-credential-manager-statup'
+    '...switch to directory'
+    cd ($dir + "\git-credential-manager-statup")
+    '...run update.ps1'
+    ./update.ps1
+    '...done'
+
+    '-----------------------------------------------------------------'
+    'Update tortoisegit-statup'
+    '...switch to directory'
+    cd ($dir + "\tortoisegit-statup")
+    '...run update.ps1'
+    ./update.ps1
+    '...done'
 
 } catch {
     'Error'
