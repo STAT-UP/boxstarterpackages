@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>tortoisegit-statup</id>
+    <version>2.2.0.0</version>
+    <authors>Git</authors>
+    <owners>Stefan Fritsch</owners>
+    <description>Current 64bit TortoiseGit stable</description>
+    <tags>git</tags>
+	<dependencies>
+		<dependency id="git-statup" />
+	</dependencies>
+  </metadata>
+</package>

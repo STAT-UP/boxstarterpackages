@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>git-statup</id>
+    <version>2.9.3</version>
+    <authors>Git</authors>
+    <owners>Stefan Fritsch</owners>
+    <description>Current Git stable</description>
+    <tags>git</tags>
+  </metadata>
+</package>
