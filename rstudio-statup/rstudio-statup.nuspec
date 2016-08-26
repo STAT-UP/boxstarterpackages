@@ -11,4 +11,7 @@
       <dependency id="r-statup" version="3.1.0" />
     </dependencies>
   </metadata>
+	<files>
+		<file src="tools\ChocolateyInstall.ps1" target="tools" />
+	</files>
 </package>
