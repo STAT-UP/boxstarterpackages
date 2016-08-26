@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>rstudio-statup</id>
-    <version>0.99.1292</version>
+    <version>0.99.1294</version>
     <authors>RStudio</authors>
     <owners>Stefan Fritsch</owners>
     <description>Current RStudio Preview</description>
