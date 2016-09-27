@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>notepadplusplus-statup</id>
+    <version>6.9.2</version>
+    <authors>Don Ho</authors>
+    <owners>Stefan Fritsch</owners>
+    <description>Current Notepad++ version</description>
+    <tags>editor</tags>
+  </metadata>
+</package>

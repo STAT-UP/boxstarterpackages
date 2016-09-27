@@ -3,8 +3,8 @@
 		packageName = 'rstudio-statup'
 		fileType = 'exe'
 		silentArgs = '/S'
-		url64bit = 'https://s3.amazonaws.com/rstudio-dailybuilds/RStudio-0.99.1294.exe'
-		checksum64 = '3ecf104ad7de2d72640c04967fb958b6c648f5df7224506369503e4cb3173f4a'
+		url64bit = 'https://s3.amazonaws.com/rstudio-dailybuilds/RStudio-1.0.19.exe'
+		checksum64 = '12eff5e892c237e816cc0e19eb9466c32db10586d399849eb0d57412bd32374a'
 		checksumType64 = 'sha256'
 	}
 	

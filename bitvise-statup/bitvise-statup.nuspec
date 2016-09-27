@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>bitvise-statup</id>
+    <version>7.15</version>
+    <authors>Bitvise Limited</authors>
+    <owners>Stefan Fritsch</owners>
+    <description>Current Bitvise SSH Client version</description>
+    <tags>ssh</tags>
+  </metadata>
+</package>

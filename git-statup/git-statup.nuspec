@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>git-statup</id>
-    <version>2.9.3</version>
+    <version>2.10.0</version>
     <authors>Git</authors>
     <owners>Stefan Fritsch</owners>
     <description>Current Git stable</description>

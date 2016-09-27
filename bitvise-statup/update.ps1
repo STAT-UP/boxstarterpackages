@@ -1,6 +1,5 @@
 import-module au
 
-
 function global:au_SearchReplace {
     @{
         'tools\chocolateyInstall.ps1' = @{
@@ -11,11 +10,18 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri "https://git-scm.com/download/win" #could use: 'https://api.github.com/repos/dnGrep/dnGrep/releases/latest' | select -expand Content | ConvertFrom-Json | select name, assets_url
 
-    $re      = 'https://github.com/git-for-windows/git/releases/download/.*-64-bit.exe'
+    ##### Bitvise #####
+    $baseurl = 'https://www.bitvise.com/ssh-client-download'
+
+    $download_page = Invoke-WebRequest -Uri $baseurl
+
+    $re      = 'BvSshClient-Inst'
+
     $url   = $download_page.links | ? href -match $re | select -First 1 -expand href
-    $version = $url -replace ".*Git-([0-9\.]+).*-64-bit.exe", '$1'
+
+    $useless = $download_page.Content -Match "ersion ([0-9\.]+)"
+    $version = $Matches[1]
 
     return @{ URL64 = $url; Version = $version }
 }

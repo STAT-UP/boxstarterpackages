@@ -5,7 +5,7 @@
 		silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
 		url64bit = 'https://cran.r-project.org/bin/windows/Rtools/Rtools34.exe'
 		checksum64 = '194fbc35e9fee6c653c17c473934ac3e65697b8316612cba4e1d9f367c229eba'
-#		checksumType = 'sha256'
+		checksumType64 = 'sha256'
 	}
 	
 	Install-ChocolateyPackage @packageArgsRtools
